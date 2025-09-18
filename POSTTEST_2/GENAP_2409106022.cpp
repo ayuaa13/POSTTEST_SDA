@@ -83,7 +83,7 @@ void hapusAwal() {
     cout << "Jadwal penerbangan paling awal berhasil dihapus.\n";
 }
 
-// 4. Update status penerbangan
+// 4. Update status 
 void updateStatus(string kode, string statusBaru) {
     Penerbangan* temp = head;
     while (temp != nullptr) {
@@ -97,7 +97,7 @@ void updateStatus(string kode, string statusBaru) {
     cout << "Kode penerbangan tidak ditemukan.\n";
 }
 
-// 5. Tampilkan semua jadwal dalam bentuk tabel
+// 5. Tampilkan Jadwal
 void tampilkanJadwal() {
     if (head == nullptr) {
         cout << "Tidak ada jadwal.\n";
